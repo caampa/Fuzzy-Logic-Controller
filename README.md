@@ -6,7 +6,7 @@ The structure of the system can be seen in the [` FL_classdiagram.png `](./FL_cl
 Basically, this project has 4 different parts in which in all of them the robot performs right edge following or similar behavior. 
 The part that connects the robot with the system is the same in all of them and it is as follows:
 
-#### Connection
+#### Connection with the robot
 ```
 Aria::init();
 	ArPose pose;
