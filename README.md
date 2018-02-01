@@ -1,5 +1,5 @@
 # Fuzzy-Logic-Controller
-System that allows a Pioneer robot to perform a Right Edge Following implementing Fuzzy Logic
+System that allows a Pioneer robot to perform a Right Edge Following implementing Fuzzy Logic.
 
 The structure of the system can be seen in the [` FL_classdiagram.png `](./FL_classdiagram.png) image.
 
