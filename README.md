@@ -1,9 +1,9 @@
 # Fuzzy-Logic-Controller
-System that allows a Pioneer robot to perform a Right Edge Following implementing Fuzzy Logic.
+System that allows a Pioneer robot to perform a Right Edge Following and Obstacle Avoidance behavior implementing Fuzzy Logic and PID Controllers.
 
 The structure of the system can be seen in the [` FL_classdiagram.png `](./FL_classdiagram.png) image.
 
-Basically, this project has 4 different parts in which in all of them the robot performs right edge following or similar behaviour. 
+Basically, this project has 4 different parts in which in all of them the robot performs right edge following or similar behavior. 
 The part that connects the robot with the system is the same in all of them and it is as follows:
 
 #### Connection
