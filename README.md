@@ -71,7 +71,7 @@ void PIDformula(double current_distance) {
 
 In order to define the Rule Tables and Membership Function Graphs. It should be modifies the ` FuzzyRightEdgeGraphs() `  and ` FuzzyRightEdgeTable ` methods from the **FL_RightEdgeFollowing.cpp** file.
 
-In addition, these are the chosen Membership Funcions: [` Distance_REF.png `](./Graphs/Distance_REF.png) and  [` Speed_REF.png `](./Graphs/Speed_REF.png), and this is the final Rule Table [` Table_REF.png `](./Graphs/Table_REF.png).
+In addition, these are the chosen Membership Funcions: [` Distance_REF.png `](./Graphs/distance_REF.png) and  [` Speed_REF.png `](./Graphs/Speed_REF.png), and this is the final Rule Table [` Table_REF.png `](./Graphs/Table_REF.png).
 
 
 ## Fuzzy Logic / Obstacle Avoidance
