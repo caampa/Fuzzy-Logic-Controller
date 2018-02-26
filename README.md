@@ -1,9 +1,9 @@
 # Fuzzy-Logic-Controller
-System that allows a Pioneer robot to perform a Right Edge Following and Obstacle Avoidance behavior implementing Fuzzy Logic and PID Controllers.
+System that allows a Pioneer robot to perform Right Edge Following and Obstacle Avoidance behaviors implementing Fuzzy Logic and PID Controllers.
 
 The structure of the system can be seen in the [` FL_classdiagram.png `](./FL_classdiagram.png) image.
 
-Basically, this project has 4 different parts in which in all of them the robot performs right edge following or similar behavior. 
+Basically, this project has 4 different parts in which in all of them the robot performs right an edge following or similar behavior. 
 The part that connects the robot with the system is the same in all of them and it is as follows:
 
 #### Connection with the robot
@@ -76,7 +76,7 @@ In addition, these are the chosen Membership Funcions: [` Distance_REF.png `](./
 
 ## Fuzzy Logic / Obstacle Avoidance
 
-In order to define the Rule Tables and Membership Function Graphs. It should be modifies the ` FuzzyRightEdgeGraphs() `  and ` FuzzyRightEdgeTable ` methods from the **FL_ObstacleAvoidance.cpp** file.
+In order to define the Rule Table and Membership Function Graphs. It should be modify the ` FuzzyRightEdgeGraphs() `  and ` FuzzyRightEdgeTable ` methods from the **FL_ObstacleAvoidance.cpp** file.
 
 In addition, these are the chosen Membership Funcions: [` Distance_OA.png `](./Graphs/Distance_OA.png) and  [` Speed_OA.png `](./Graphs/Speed_OA.png), and this is the final Rule Table [` Table_OA.png `](./Graphs/Table_OA.png).
 
